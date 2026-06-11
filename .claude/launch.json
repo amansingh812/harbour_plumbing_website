@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "harbour-plumbing",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "4173", "--directory", "/Users/amansingh/Documents/GitHub/harbour_plumbing_website"],
+      "port": 4173
+    }
+  ]
+}
