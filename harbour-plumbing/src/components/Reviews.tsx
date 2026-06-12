@@ -31,7 +31,7 @@ export default function Reviews() {
             href={business.google.reviewsUrl}
             target="_blank"
             rel="noopener"
-            className="text-sm font-bold text-orange-deep whitespace-nowrap hover:underline"
+            className="inline-flex items-center min-h-11 text-sm font-bold text-orange-deep whitespace-nowrap hover:underline"
           >
             Read all {business.google.reviewCount} Reviews →
           </a>

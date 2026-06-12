@@ -15,6 +15,38 @@
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700&family=Inter:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="preload" as="image" href="/hero-plumber.webp" fetchpriority="high" />
+    <!-- LocalBusiness schema — keep in sync with src/data/data.ts when re-skinning -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Plumber",
+        "name": "Harbour Plumbing Co.",
+        "description": "Sydney's trusted 24/7 emergency plumbers. On-time, upfront pricing, lifetime workmanship warranty.",
+        "telephone": "+61400123456",
+        "email": "info@harbourplumbing.com.au",
+        "image": "/hero-plumber.webp",
+        "priceRange": "$$",
+        "areaServed": [
+          { "@type": "City", "name": "Sydney" },
+          { "@type": "Place", "name": "Eastern Suburbs" },
+          { "@type": "Place", "name": "Inner West" },
+          { "@type": "Place", "name": "North Shore" }
+        ],
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "opens": "00:00",
+          "closes": "23:59"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "340"
+        },
+        "identifier": "NSW Lic. 123456C"
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>

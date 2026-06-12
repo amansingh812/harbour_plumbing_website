@@ -81,7 +81,7 @@ export default function QuoteForm() {
           <button
             type="submit"
             disabled={sent}
-            className="w-full rounded-xl bg-orange px-9 py-4 text-base font-bold tracking-wider text-white shadow-cta transition-all hover:bg-orange-deep hover:shadow-cta-lift hover:-translate-y-0.5 disabled:translate-y-0 disabled:opacity-90"
+            className="w-full rounded-xl bg-orange px-9 py-4 text-base font-bold tracking-wider text-orange-ink shadow-cta transition-all hover:bg-orange-deep hover:text-white hover:shadow-cta-lift hover:-translate-y-0.5 disabled:translate-y-0 disabled:opacity-90"
           >
             {sent ? "Request Sent ✓ — We'll call you shortly" : 'Get My Free Quote'}
           </button>

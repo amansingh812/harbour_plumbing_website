@@ -41,7 +41,7 @@ export default function Hero() {
           <div className="flex flex-wrap gap-4 pt-2">
             <a
               href={business.phoneHref}
-              className="inline-flex items-center justify-center gap-2 rounded-xl bg-orange px-9 py-4 text-base font-bold tracking-wider text-white shadow-cta transition-all hover:bg-orange-deep hover:shadow-cta-lift hover:-translate-y-1"
+              className="inline-flex items-center justify-center gap-2 rounded-xl bg-orange px-9 py-4 text-base font-bold tracking-wider text-orange-ink shadow-cta transition-all hover:bg-orange-deep hover:text-white hover:shadow-cta-lift hover:-translate-y-1"
             >
               <Icon name="phone" className="w-5 h-5" />
               Call Now

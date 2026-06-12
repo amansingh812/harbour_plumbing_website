@@ -15,7 +15,7 @@ export default function Footer() {
           <ul className="grid gap-2.5">
             {[...nav.links, { label: 'Get a Quote', href: '#quote' }].map((link) => (
               <li key={link.href + link.label}>
-                <a href={link.href} className="transition-colors hover:text-white">
+                <a href={link.href} className="inline-flex items-center min-h-11 transition-colors hover:text-white">
                   {link.label}
                 </a>
               </li>
@@ -71,8 +71,8 @@ export default function Footer() {
             © {business.copyrightYear} {business.name} All Rights Reserved. {business.licence}
           </p>
           <div className="flex gap-4">
-            <a href="#" className="hover:text-white">Privacy Policy</a>
-            <a href="#" className="hover:text-white">Terms of Service</a>
+            <a href="#" className="inline-flex items-center min-h-11 hover:text-white">Privacy Policy</a>
+            <a href="#" className="inline-flex items-center min-h-11 hover:text-white">Terms of Service</a>
           </div>
         </div>
       </div>

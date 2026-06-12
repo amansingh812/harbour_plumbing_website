@@ -9,7 +9,7 @@ export default function MobileCtaBar() {
     >
       <a
         href={business.phoneHref}
-        className="flex-1 flex flex-col items-center justify-center gap-0.5 bg-orange text-white text-[13px] font-bold tracking-wide active:opacity-90"
+        className="flex-1 flex flex-col items-center justify-center gap-0.5 bg-orange text-orange-ink text-[13px] font-bold tracking-wide active:opacity-90"
       >
         <Icon name="phone" className="w-5.5 h-5.5" />
         Call Now

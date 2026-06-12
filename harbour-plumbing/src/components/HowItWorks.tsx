@@ -5,7 +5,7 @@ import SectionHead from './SectionHead'
 const boxStyles: Record<string, string> = {
   navy: 'bg-navy text-white shadow-lift rotate-3',
   outline: 'bg-offwhite border-2 border-navy text-navy shadow-rest -rotate-3',
-  orange: 'bg-orange text-white shadow-cta rotate-3',
+  orange: 'bg-orange text-orange-ink shadow-cta rotate-3',
 }
 
 const numStyles: Record<string, string> = {

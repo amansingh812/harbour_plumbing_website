@@ -41,7 +41,7 @@ export default function Header() {
               <a
                 key={link.href}
                 href={link.href}
-                className="text-sm font-bold tracking-wider text-muted whitespace-nowrap transition-colors hover:text-orange"
+                className="inline-flex items-center min-h-11 py-2 text-sm font-bold tracking-wider text-muted whitespace-nowrap transition-colors hover:text-orange-deep"
               >
                 {link.label}
               </a>
@@ -51,21 +51,21 @@ export default function Header() {
           <div className="hidden md:flex items-center gap-3">
             <a
               href={business.phoneHref}
-              className="inline-flex items-center gap-2 rounded-xl bg-orange px-5 py-2.5 text-sm font-bold tracking-wider text-white whitespace-nowrap shadow-cta transition-all hover:bg-orange-deep hover:shadow-cta-lift hover:-translate-y-0.5"
+              className="inline-flex items-center gap-2 rounded-xl bg-orange min-h-11 px-5 py-2.5 text-sm font-bold tracking-wider text-orange-ink whitespace-nowrap shadow-cta transition-all hover:bg-orange-deep hover:text-white hover:shadow-cta-lift hover:-translate-y-0.5"
             >
               <Icon name="phone" className="w-5 h-5" />
               Call Now — {business.phone}
             </a>
             <a
               href="#quote"
-              className="inline-flex items-center rounded-xl border-2 border-navy px-5 py-2.5 text-sm font-bold tracking-wider text-navy whitespace-nowrap transition-all hover:bg-navy hover:text-white"
+              className="inline-flex items-center rounded-xl border-2 border-navy min-h-11 px-5 py-2.5 text-sm font-bold tracking-wider text-navy whitespace-nowrap transition-all hover:bg-navy hover:text-white"
             >
               {nav.cta}
             </a>
           </div>
 
           <button
-            className="md:hidden p-2 text-navy"
+            className="md:hidden p-2 min-w-11 min-h-11 flex items-center justify-center text-navy"
             aria-expanded={menuOpen}
             aria-controls="mobile-menu"
             aria-label="Open menu"

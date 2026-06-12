@@ -20,7 +20,7 @@ export const business = {
   responseTime: { label: 'Average Response Time', value: '47 Minutes' },
   topBar: '24/7 Emergency Plumbing · Licensed & Insured · NSW Lic. 123456C',
   heroImage: {
-    src: '/hero-plumber.jpg',
+    src: '/hero-plumber.webp',
     alt: 'Friendly professional plumber in a clean navy uniform standing in a modern Sydney kitchen',
   },
   trustBadges: [

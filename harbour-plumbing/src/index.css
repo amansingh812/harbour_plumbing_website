@@ -13,6 +13,8 @@
   --color-line-soft: #c3c6ce;
   --color-navy-tint: #afc9eb;
   --color-orange-deep: #a33e00;
+  /* AA-compliant dark text for orange backgrounds (contrast ≈ 5.4:1) */
+  --color-orange-ink: #5c2000;
   --color-peach: #ffdbcd;
   --color-gstar: #fbbc05;
   --color-gblue: #4285f4;

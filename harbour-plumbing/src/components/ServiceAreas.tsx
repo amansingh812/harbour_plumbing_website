@@ -19,7 +19,7 @@ export default function ServiceAreas() {
                   <a
                     key={suburb}
                     href={business.phoneHref}
-                    className="rounded-full bg-offwhite border border-line px-4 py-1.5 text-sm font-medium text-navy transition-colors hover:bg-navy hover:text-white hover:border-navy"
+                    className="inline-flex items-center min-h-11 rounded-full bg-offwhite border border-line px-4 py-2 text-sm font-medium text-navy transition-colors hover:bg-navy hover:text-white hover:border-navy"
                   >
                     {suburb}
                   </a>
