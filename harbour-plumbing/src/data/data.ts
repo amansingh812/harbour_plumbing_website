@@ -194,7 +194,7 @@ export type Faq = { question: string; answer: string }
 
 export const faqs: Faq[] = [
   {
-    question: 'Do you really operate 24/7, including public holidays?',
+    question: 'Do you really operate 24/7, including public holidays ? ',
     answer:
       'Yes — a licensed plumber is on call every hour of every day, including Christmas and public holidays. Our average emergency response time across Sydney is 47 minutes.',
   },
